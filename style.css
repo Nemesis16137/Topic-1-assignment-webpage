@@ -44,5 +44,5 @@ li a:hover:not(.active) {
   color: white;
 }
 .images {
-  font-size:100px;
+ max-width:30%
 }

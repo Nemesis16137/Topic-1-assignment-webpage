@@ -2,14 +2,14 @@
 import './style.css';
 import $ from 'jquery';
 
-$('input').on('change', function () {
+$('#slider').on('change', function () {
     var v = $(this).val();
     $('div').css('font-size', v + 'px')
     $('span').html(v);
 });
 
-$('input').on('change', function () {
+$('#slider2').on('change', function () {
     var v = $(this).val();
-    $('div').css('font-size', v + 'px')
+    $('.images').css('max-width', v + '%')
     $('span').html(v);
 });
