@@ -43,3 +43,6 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+.images {
+  font-size:100px;
+}
