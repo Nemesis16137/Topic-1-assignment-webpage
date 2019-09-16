@@ -1,3 +1,15 @@
+:root {
+--size_value: 20px;
+}
+
+div {
+    padding:20px;
+    background:#eee;
+    font-size:12px
+}
+div {
+font-size: var(--size_value);
+}
 
 body {
   margin: 0;
